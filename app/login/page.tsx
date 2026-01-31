@@ -7,11 +7,7 @@ import { useState } from 'react'
 export default function LoginPage() {
     const [email, setEmail] = useState('')
         const [password, setPassword] = useState('')
-'use client'
-  
-  import { useState } from 'react'
-    import { useRouter } from 'next/navigation'
-      import { createClientComponentClient } from '@supabase/auth-helpers-nextjs'
+
         
   export default function LoginPage() {
       const [email, setEmail] = useState('')
